@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d6675238ed.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+
+      <nav>
+        <img src="images/logo5.jpg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        <button class="btn2" onclick="myFunction()">Change Mode</button>
+      </nav>
+      <div class="heading">
+        <p>ASPIRING WEB DEVELOPER</p>
+        <h1>Hi, I am YAMYA <br></h1>
+        <h2>I am First Year <br> student of SOIT RGPV</h2>
+      </div>
+
+    </div>
+
+
+
+    <!-- About -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/10.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">ABOUT ME</h1>
+            <p>Yamya Patel is an aspiring web developer with a passion for cooking, singing, and calligraphy. She enjoys
+              experimenting with new recipes, belting out her favorite tunes, and creating beautiful handwritten art,
+              all while honing her skills to craft engaging digital experiences in the tech world.</p>
+
+
+            <div class="tab-titles">
+              <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links active" onclick="opentab('education')">Education</p>
+              <p class="tab-links active" onclick="opentab('hobbies')">Hobbies</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br>HTML AND CSS</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br>BTECH from School of Information Techonology(First Year)</li>
+
+                <li><span>2020</span><br>10th from Gyanasthali Rewa</li>
+                <li><span>2022</span><br>12th from Holylite Jabalpur</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="hobbies">
+              <ul>
+                <li><span>Writing Calligraphy</span><br>I love to try different styles which improves creativity.</li>
+                <li><span>Cooking</span><br>I like to try different dishes.</li>
+                <li><span>Singing</span><br>I love to listen and cherish different forms of music.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects -->
+    <div id="project">
+      <div class="container">
+        <h1 class="sub-title">MY PROJECTS</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/13.jpg">
+            <div class="layer">
+              <h3>Nature Conservation website</h3>
+              <p>This website is made to aware people about the deteorating enviornment and help people save nature.</p>
+              <a href="https://github.com/code-eng932/Project-07.git">CODE</a>
+              <a href=" https://code-eng932.github.io/Project-07/ ">LIVE</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/15.jpg">
+            <div class="layer">
+              <h3>Travel blog Website</h3>
+              <p>This website is made to tell the beauty of New Zealand.A beautifuland fascinating place to visit</p>
+              <a href="https://github.com/code-eng932/project-6.git">CODE</a>
+              <a href="https://code-eng932.github.io/project-6/">LIVE</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/14.jpg">
+            <div class="layer">
+              <h3>Online Shopping Website</h3>
+              <p>This is a website structure for an e commerce website designed using frontend.</p>
+              <a href="https://github.com/code-eng932/Project-4.git">CODE</a>
+              <a href="https://code-eng932.github.io/Project-4/">LIVE</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/16.jpg">
+            <div class="layer">
+              <h3>Image gallery website</h3>
+              <p>This website is a gallery which contains images of nature.</p>
+              <a href="https://github.com/code-eng932/Project-3.git">CODE</a>
+              <a href="https://code-eng932.github.io/Project-3/">LIVE</a>
+            </div>
+
+          </div>
+          <div class="work">
+            <img src="images/17.jpg" alt="">
+            <div class="layer">
+              <h3>INVITE RSVP FORM</h3>
+              <p>This website is a structure for an invitation containing an rsvp form.</p>
+              <a href="https://github.com/code-eng932/Project-5.git">CODE</a>
+              <a href="https://code-eng932.github.io/Project-5/">LIVE</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- testimonials -->
+        <div id="testimonials">
+          <div class="container">
+            <h1 class="sub-title">TESTIMONIALS</h1>
+            <div class="services-list">
+              <div>
+
+                <h2>PERSON 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien
+                  quis.
+                </p>
+
+              </div>
+              <div>
+
+                <h2>PERSON 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien
+                  quis.
+                </p>
+
+              </div>
+              <div>
+
+                <h2>PERSON 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien
+                  quis.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- contacts -->
+        <div id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <p> <i class="fa-regular fa-paper-plane" style="color: #ff004f;"></i> yamyapatel115@gmail.com</p>
+
+                <div class="social-icons">
+                  <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.twiter.com"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                  <br>
+
+                </div>
+              </div>
+
+
+
+              <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="message" rows="6" placeholder="Feedback"></textarea>
+                  <button type="submit" class="btn btn2">SUBMIT</button>
+                </form>
+                <span id="msg"></span>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- blogs  -->
+        <footer id="blogs">
+          <h1>BLOG SECTION</h1>
+        </footer>
+        <div id="blog-container"></div>
+
+
+        <!-- scripts  -->
+        <script>
+          fetch('blogs.json')
+            .then(response => response.json())
+            .then(data => {
+              const container = document.getElementById('blog-container');
+              data.forEach(blog => {
+                const postDiv = document.createElement('div');
+                postDiv.className = 'blog-post';
+                postDiv.innerHTML = `
+                      <div class="title">${blog.title}</div>
+                      <div class="author">By ${blog.author} on ${blog.date}</div>
+                      <img src="${blog.image}" alt="${blog.title}" class="image">
+                      <div class="content">${blog.content}</div>
+                  `;
+                container.appendChild(postDiv);
+              });
+            })
+            .catch(error => console.error('Error fetching the blogs:', error));
+        </script>
+
+
+
+
+        <script>
+
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+
+          function opentab(tabname) {
+            for (tablink of tablinks) {
+              tablink.classList.remove("active");
+            }
+            for (tabcontent of tabcontents) {
+              tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active")
+            document.getElementById(tabname).classList.add("active-tab")
+          }
+          //  contacts
+
+        </script>
+        <script>
+
+          var sidemeu = document.getElementById("sidemenu");
+
+          function openmenu() {
+            sidemeu.style.right = "0";
+          }
+          function closemenu() {
+            sidemeu.style.right = "-200px";
+          }
+
+        </script>
+
+        <script>
+          const scriptURL = '<https://script.google.com/macros/s/AKfycbzPJ1ByPp3qQWrmj_pc7qLEN8aeKNvHBEZeqEznOrsmmhmZ20Y2tpEqqAVdoxpH3TjORg/exec>'
+          const form = document.forms['submit-to-google-sheet']
+
+          form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+              .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function () {
+                  msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+              })
+              .catch(error => console.error('Error!', error.message))
+          })
+        </script>
+        <script>
+          function myFunction() {
+            var element = document.body;
+            element.classList.toggle("light-mode");
+          }
+        </script>
+
+
+</body>
+
+</html>
